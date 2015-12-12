@@ -5,15 +5,6 @@
     android:orientation="vertical"
     android:layout_height="match_parent" >
 
-    <TextView
-        android:text="Username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:id="@+id/etUsername"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
     <TextView
         android:text="Name"
@@ -23,6 +14,7 @@
     <EditText
         android:id="@+id/etName"
         android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
         android:layout_height="wrap_content" />
 
     <TextView
@@ -33,13 +25,36 @@
     <EditText
         android:id="@+id/etAge"
         android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
         android:layout_height="wrap_content" />
 
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/bLogout"
-        android:layout_marginTop="10dp"
+        android:id="@+id/bRegister"
         android:layout_width="match_parent"
-        android:text="Logout"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
 </LinearLayout>
